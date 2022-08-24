@@ -1,5 +1,17 @@
-body {
-    background-color: black;
-    color: red;
-    font-size: 25px;
+body{
+
+}
+header{
+    display:block;
+    margin: 0 auto;
+    width: 1440px;
+    height: 962px;
+    background-image: url("../sourses/image/bcgroundimage.png");
+    background-position: center;
+    display: flex;
+}
+header div{
+    color: white;
+    display: block;
+    
 }
