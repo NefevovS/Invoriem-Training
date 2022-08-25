@@ -1,17 +1,9 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url(../css/fonts/Gilroy/stylesheet.css);
+/* font-family: 'Work Sans', sans-serif; */
+/* font-family: 'Gilroy', sans-serif*/
 
-}
-header{
-    display:block;
-    margin: 0 auto;
-    width: 1440px;
-    height: 962px;
-    background-image: url("../sourses/image/bcgroundimage.png");
-    background-position: center;
-    display: flex;
-}
-header div{
-    color: white;
-    display: block;
-    
+body{
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
 }
