@@ -8,6 +8,9 @@ body{
     font-weight: 500;
 }
 
+.none{
+    display: none;
+}
 
 .container {
     max-width: 1750px;
@@ -52,14 +55,67 @@ color: #114455;
 
 /*Button*/
 .btn {
-    display: inline-block;
-    padding: 10px 24px;
+display: inline-block;
+padding: 10px 24px;
+padding-right: 72px;
 font-size: 20px;
 font-weight: 800;
 color: #114455;
 border: 1px solid #114455;
 border-radius: 2px;
+position: relative;
 }
+.btn::after
+{
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-image: url(../sourses/image/icons/arrow-right-black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.btn--bg {
+    padding: 14px 32px;
+    padding-right: 80px;
+}
+.btn--dark {
+    background-color: #114455;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.btn--dark::after{
+    background-image: url(../sourses/image/icons/arrow-right-white.svg);
+}
+
+
+
+.btn:hover{
+    background-color: #114455;
+    color: #FFFFFF;
+}
+.btn:hover::after{
+    background-image: url(../sourses/image/icons/arrow-right-white.svg);
+    }
+
+
+.btn--dark:hover{
+    background-color: #fff;
+    color: #114455;
+   
+    }
+    
+.btn--dark:hover::after{
+    background-image: url(../sourses/image/icons/arrow-right-black.svg);
+}
+
 
 /*HEADER CONTENT*/
 .header__content {
@@ -73,8 +129,39 @@ border-radius: 2px;
     font-size: 80px;
 }
 .header__text {
+    color: #1F1F1F;
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 72px;
 }
 .header_btn {
 }
-.btn {
+.container-right{
+    padding-left: calc((100% - 1750px)/2 + 15px);
+}
+/*SLIDER*/
+.container-right {
+}
+.slider {
+}
+.slider__item {
+}
+/*Slide*/
+.slide {
+    position: relative;
+    background-color: red;
+    padding-left: 80px;
+}
+.slide__title {
+    position: absolute;
+    left:0;
+    bottom: 104px;
+    font-size: 140px;
+    font-weight: 800;
+    background: linear-gradient(90deg,rgba(17,68,85,1) 80px,rgba(255,255,255,1) 80px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.slide__img {
 }

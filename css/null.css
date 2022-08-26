@@ -116,3 +116,35 @@ a{
 li{
   list-style-type: none;
 }
+
+
+/*CASE-STUDIES*/
+
+
+
+.case-studies {
+  padding:184px 0;
+
+}
+
+.case-studies__title {
+  margin-bottom: 12px;
+  max-width: 1070px;
+}
+
+.case-studies__text {
+  margin-bottom: 100px;
+  max-width: 1070px;
+}
+
+.title {
+  font-size: 80px;
+  font-weight: 800;
+  color: #1f1f1f;
+} 
+.text {
+  color: #1f1f1f;
+  font-size: 28px;
+  line-height: 44px;
+
+}
