@@ -1,136 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Invoriem - html </title>
-    <link rel="stylesheet" href="../css/null.css" >
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-        <div class="header__top">
-            <nav class="nav">
-                <a href="#!" class="nav__logo">
-                    <img src="../sourses/image/logo.svg" alt="Invoriem project" srcset="">
-                </a>
-                <ul class="nav__list">
-                <li> <a href="#!" class="link">About us</a></li>
-                <li><a href="#!" class="btn">Let’s Talk </a></li>
-                </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-            </nav>
+    <title>Invoriem - html</title>
+    <link rel="stylesheet" href="../css/null.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header none">
+      <div class="container">
+        <div class="header__top">
+          <nav class="nav">
+            <a href="#!" class="nav__logo">
+              <img
+                src="../sourses/image/logo.svg"
+                alt="Invoriem project"
+                srcset=""
+              />
+            </a>
+            <ul class="nav__list">
+              <li><a href="#!" class="link">About us</a></li>
+              <li><a href="#!" class="btn">Let’s Talk </a></li>
+            </ul>
+            <button class="nav__btn">
+              <img
+                src="../sourses/image/icons/mobile-nav-button.svg"
+                alt="nav-button"
+              />
+            </button>
+          </nav>
         </div>
 
         <div class="header__content">
-            <h1 class="header__title"> We build dreams, not just walls</h1>
-            <div class="header__text">
-                    <p>Fulfill your international property developments with us</p>
-            </div>
-            <div class="header_btn">
-                <a href="#!" class="btn btn--bg btn--dark">Let’s Talk</a>
-            </div>
-
-
-
+          <h1 class="header__title">We build dreams, not just walls</h1>
+          <div class="header__text">
+            <p>Fulfill your international property developments with us</p>
+          </div>
+          <div class="header_btn">
+            <a href="#!" class="btn btn--bg btn--dark">Let’s Talk</a>
+          </div>
         </div>
-       
-
-        
-    </div>
-  </header>
-
-<main>
-<section class="case-studies">
-    <div class="container">
-        <div class="case-studies__title">
-            <h2 class="title">Case Studies </h2>
-            
+        <div class="header__content-mobile">
+          <img
+            src="../sourses/image/logo.svg"
+            alt="Invoriem project"
+            class="heaser__logo-mobile"
+          />
+          <p>We fulfill international property developments</p>
         </div>
-        
-        <div class="case-studies__text text">
-            <p> We deliver a unique and truly bespoke approach to delivering international developments to market, 
-            with over 10 years success around the world.</p>
-        </div>
-     </div>
+        <a href="#main" class="header__arrows"
+          ><img
+            src="../sourses/image/icons/header-arrows-desktop.svg"
+            alt="arrows"
+        /></a>
+      </div>
+    </header>
 
-    <div class="container-right">
-        <div class="slider owl-carousel owl-theme">
-            <div class="slider__item slide">
+    <main id="main">
+      <section class="case-studies">
+        <div class="container">
+          <div class="case-studies__title">
+            <h2 class="title">Case Studies</h2>
+          </div>
+
+          <div class="case-studies__text text">
+            <p>
+              We deliver a unique and truly bespoke approach to delivering
+              international developments to market, with over 10 years success
+              around the world.
+            </p>
+          </div>
+        </div>
+
+        <div class="container-right">
+          <div class="slider">
+            <div class="owl-carousel owl-theme">
+              <div class="slider__item slide">
                 <h3 class="slide__title">France</h3>
-                <img class="slide__img" src="../sourses/image/slider/slider-01.png" alt="01">
-            </div>
-            <div class="slider__item slide">
+                <img
+                  class="slide__img"
+                  src="../sourses/image/slider/slider-01.png"
+                  alt="01"
+                />
+              </div>
+              <div class="slider__item slide">
                 <h3 class="slide__title">Moroco</h3>
-                <img class="slide__img" src="../sourses/image/slider/slider-02.png" alt="02">
-            </div>
-            <div class="slider__item slide">
+                <img
+                  class="slide__img"
+                  src="../sourses/image/slider/slider-02.png"
+                  alt="02"
+                />
+              </div>
+              <div class="slider__item slide">
                 <h3 class="slide__title">Portugal</h3>
-                <img class="slide__img" src="../sourses/image/slider/slider-03.png" alt="03">
-            </div>
-            <div class="slider__item slide">
+                <img
+                  class="slide__img"
+                  src="../sourses/image/slider/slider-03.png"
+                  alt="03"
+                />
+              </div>
+              <div class="slider__item slide">
                 <h3 class="slide__title">London</h3>
-                <img class="slide__img" src="../sourses/image/slider/slider-04.png" alt="04">
+                <img
+                  class="slide__img"
+                  src="../sourses/image/slider/slider-04.png"
+                  alt="04"
+                />
+              </div>
             </div>
+          </div>
         </div>
-       
-    </div>
-</section>
+      </section>
 
-<section class="about">
-    <div class="container">
-        <div class="about__title">
+      <section class="about none">
+        <div class="container">
+          <div class="about__title">
             <h2 class="title">We are Invoriem</h2>
-        </div>
-        <div class="about__text text">
-                <p>We fulfill international property developments</p>
-        </div>
-        <div class="about__content">
+          </div>
+          <div class="about__text text">
+            <p>We fulfill international property developments</p>
+          </div>
+          <div class="about__content">
             <div class="video video-overlay">
-                <button class="vidio__btn" id="video-btn">
-                    <img src="../sourses/image/icons/play-btn.svg" alt="play">
-                </button>
-                <img src="../sourses/image/vidio-picture.jpg" class="video__picture" alt="video">
+              <button class="vidio__btn" id="video-btn">
+                <img src="../sourses/image/icons/play-btn.svg" alt="play" />
+              </button>
+              <img
+                src="../sourses/image/vidio-picture.jpg"
+                class="video__picture"
+                alt="video"
+              />
 
-                <video src="../sourses/video/video-1.mp4" type="video/mp4" class="video__object" id="video-file" loop></video>
+              <video
+                src="../sourses/video/video-1.mp4"
+                type="video/mp4"
+                class="video__object"
+                id="video-file"
+                loop
+              ></video>
             </div>
-
-            
+          </div>
         </div>
-    </div>
-</section>
-</main>
-<footer class="footer">
-    <div class="container">
+      </section>
+    </main>
+    <footer class="footer none">
+      <div class="container">
         <div class="footer__row">
-            <div class="footer__copyright">Copyright © 2020 Invoriem
-
+          <div class="footer__copyright">Copyright © 2020 Invoriem</div>
+          <div class="footer__nav">
+            <div class="footer_email">
+              <a href="mailto:info@invoriem.com"> info@invoriem.com</a>
             </div>
-            <div class="footer__nav">
-                <div class="footer_email"><a href="mailto:info@invoriem.com"> info@invoriem.com</a></div>
-                <div class="footer__socials">
-                    <a href="#!" class="social-icon"><img src="../sourses/image/icons/instagram.svg" alt="link"></a>
-                    <a href="#!" class="social-icon"><img src="../sourses/image/icons/facebook.svg" alt="link"></a>
-                    <a href="#!" class="social-icon"><img src="../sourses/image/icons/twitter.svg" alt="link"></a>
-                    <a href="#!" class="social-icon"><img src="../sourses/image/icons/linkedIn.svg" alt="link"></a>
-                </div>
+            <div class="footer__socials">
+              <a href="#!" class="social-icon"
+                ><img src="../sourses/image/icons/instagram.svg" alt="link"
+              /></a>
+              <a href="#!" class="social-icon"
+                ><img src="../sourses/image/icons/facebook.svg" alt="link"
+              /></a>
+              <a href="#!" class="social-icon"
+                ><img src="../sourses/image/icons/twitter.svg" alt="link"
+              /></a>
+              <a href="#!" class="social-icon"
+                ><img src="../sourses/image/icons/linkedIn.svg" alt="link"
+              /></a>
             </div>
+          </div>
         </div>
-    </div>
-</footer>
+      </div>
+    </footer>
 
-
-
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="../js/main.js"></script>
-</body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../js/main.js"></script>
+  </body>
 </html>

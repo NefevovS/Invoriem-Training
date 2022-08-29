@@ -2,7 +2,9 @@
 @import url(../css/fonts/Gilroy/stylesheet.css);
 /* font-family: 'Work Sans', sans-serif; */
 /* font-family: 'Gilroy', sans-serif*/
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Gilroy', sans-serif;
     font-weight: 500;
@@ -38,8 +40,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.nav__logo {
-}
+
 .nav__list {
     display: flex;
     align-items: center;
@@ -119,9 +120,13 @@ position: relative;
 
 
 /*HEADER CONTENT*/
+.header__content-mobile {
+display: none;
+}
 .header__content {
     max-width: 1060px;
 }
+
 .header__title {
     margin-bottom: 48px;
     max-width: 734px;
@@ -134,12 +139,21 @@ position: relative;
     font-size: 34px;
     font-weight: 400;
     margin-bottom: 72px;
+    line-height: 1.57;
+}
+.nav__btn{
+    display: none;
 }
 
 .container-right{
     padding-left: calc((100% - 1750px)/2 + 15px);
 }
-
+.header__arrows {
+    position: absolute;
+    bottom: 59px;
+    left:50%;
+    transform: translateX(-50%);
+    }
 
 /*Slide*/
 .slide {
